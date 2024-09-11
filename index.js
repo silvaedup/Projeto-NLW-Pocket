@@ -2,14 +2,21 @@
 let meta = {
   value: "ler um livro por mês",
   checked: false,
-  log: (info) => {
-    console.log(info);
-  },
 };
 
-meta.log(meta.value);
+let metas = [
+  meta,
+  {
+    value: "caminhada de 20 minutos",
+    checked: false,
+  },
+];
+
+console.log(metas[1].value);
+
+// meta.log(meta.value);
 
 // function // arrow function
-const criarMeta = () => {};
+// const criarMeta = () => {};
 
 // function criarMeta () {}
